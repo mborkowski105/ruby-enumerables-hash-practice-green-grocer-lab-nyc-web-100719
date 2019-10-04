@@ -36,7 +36,7 @@ end
 
 def apply_clearance(cart)
   cart.each do |product_name, stats|
-    
+    stats[:price]
   end
   
   return cart
